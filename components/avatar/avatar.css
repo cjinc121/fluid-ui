@@ -1,0 +1,40 @@
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--light-color);
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.avatar-square.sm {
+  height: 4rem;
+  width: 4rem;
+}
+
+.avatar-square.m {
+  height: 6rem;
+  width: 6rem;
+}
+
+.avatar-square.lg {
+  height: 8rem;
+  width: 8rem;
+}
+.avatar-circle {
+  border-radius: 50%;
+}
+.avatar-circle.sm {
+  height: 4rem;
+  width: 4rem;
+}
+
+.avatar-circle.m {
+  height: 6rem;
+  width: 6rem;
+}
+
+.avatar-circle.lg {
+  height: 8rem;
+  width: 8rem;
+}

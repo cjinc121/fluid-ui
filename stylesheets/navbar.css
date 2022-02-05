@@ -4,7 +4,7 @@
 
 .navbar {
   width: 90%;
-  margin: auto;
+  margin: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
