@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #1d4ed8;
+  --white-color: white;
+  --black-color: black;
+  --darkgray-color: #333333;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+img,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+}

@@ -1,0 +1,111 @@
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h5 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+
+.txt-xl {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.txt-l {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.txt-m {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.txt-s {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.txt-xs {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+/* || FONT WEIGHTS ----------------------------*/
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-bolder {
+  font-weight: 900;
+}
+
+/* || SPACING --------------------------------------- */
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.m-1 {
+  margin-bottom: 1rem;
+}
+
+.m-2 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.m-3 {
+  margin: 3rem;
+}
+
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-15 {
+  font-size: 1.5rem;
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+
+.fs-3 {
+  font-size: 3rem;
+}
