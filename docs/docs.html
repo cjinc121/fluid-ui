@@ -67,7 +67,7 @@
             <iframe
               src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-square%2520sm%2522%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522alt%253D%2522avatar-square%2522%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar-square%2520m%2522%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522alt%253D%2522avatar-square%2522%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar-square%2520lg%2522%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522alt%253D%2522avatar-square%2522%252F%253E"
               style="
-                width: 399px;
+                min-width: 399px;
                 height: 215px;
                 border: 0;
                 transform: scale(1);
@@ -99,8 +99,48 @@
             <iframe
               src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-%2520sm%2522src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522alt%253D%2522avatar-square%2522%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar-circular%2520m%2522%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522alt%253D%2522avatar-square%2522%252F%253E%250A%250A%253Cimg%2520class%253D%2522avatar-circular%2520lg%2522%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522alt%253D%2522avatar-square%2522%252F%253E"
               style="
-                width: 399px;
+                min-width: 399px;
                 height: 215px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
+        <hr />
+        <!-- alert -->
+        <section id="alert">
+          <div class="alert-container">
+            <h3>Alert</h3>
+            <div class="alert-item alert-error">
+              <i class="fas fa-bomb"></i>This is a error message<i
+                class="far fa-times-circle cross"
+              ></i>
+            </div>
+            <div class="alert-item alert-warn">
+              <i class="fas fa-exclamation-triangle"></i>This is a warning
+              message<i class="far fa-times-circle cross"></i>
+            </div>
+            <div class="alert-item alert-sucess">
+              <i class="far fa-check-circle"></i>This is a sucess messsage<i
+                class="far fa-times-circle cross"
+              ></i>
+            </div>
+            <div class="alert-item alert-info">
+              <i class="fas fa-info"></i>This is a info messsage<i
+                class="far fa-times-circle cross"
+              ></i>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-item%2520alert-error%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-bomb%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520error%2520message%253Ci%2520class%253D%2522far%2520fa-times-circle%2520cross%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-item%2520alert-warn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520warning%2520message%253Ci%2520class%253D%2522far%2520fa-times-circle%2520cross%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-item%2520alert-sucess%2522%253E%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520sucess%2520messsage%253Ci%2520class%253D%2522far%2520fa-times-circle%2520cross%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-item%2520alert-info%2522%253E%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520info%2520messsage%253Ci%2520class%253D%2522far%2520fa-times-circle%2520cross%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E"
+              style="
+                min-width: 399px;
+                height: 303px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;

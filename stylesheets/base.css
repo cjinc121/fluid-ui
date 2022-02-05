@@ -5,6 +5,10 @@
   --white-color: white;
   --black-color: black;
   --light-color: #f9f9f0;
+  --info-color: skyblue;
+  --error-color: red;
+  --warn-color: orange;
+  --sucess-color: lightgreen;
 }
 body {
   font-family: "Ubuntu", sans-serif;

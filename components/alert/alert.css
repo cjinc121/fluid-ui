@@ -1,0 +1,32 @@
+.alert-container {
+  background-color: var(--light-color);
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.alert-item {
+  padding: 1rem;
+  width: 99%;
+  margin: 1rem;
+
+  border-radius: 1rem;
+}
+.alert-error {
+  border: 1px solid var(--error-color);
+  color: var(--error-color);
+}
+.alert-info {
+  border: 1px solid var(--info-color);
+  color: var(--info-color);
+}
+.alert-warn {
+  border: 1px solid var(--warn-color);
+  color: var(--warn-color);
+}
+.alert-sucess {
+  border: 1px solid var(--sucess-color);
+  color: var(--sucess-color);
+}
+.cross {
+  float: right;
+}
