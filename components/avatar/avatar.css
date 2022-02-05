@@ -1,11 +1,11 @@
 .avatar-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
   background-color: var(--light-color);
   padding: 0.5rem;
-  margin: 1rem;
+  margin-bottom: 0.5rem;
 }
 .avatar-square.sm {
   height: 4rem;
