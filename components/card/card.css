@@ -68,7 +68,7 @@
   background-color: var(--white-color);
   padding: 1rem;
   border-radius: 0.7rem;
-  gap: 0.5rem;
+  gap: 10px;
 }
 .image-container {
   position: relative;
@@ -87,11 +87,8 @@
   right: 0.1rem;
 }
 .card-price {
-  padding: 0.2rem;
+  padding: 3px;
   font-weight: 800;
-}
-.strikeoff {
-  text-decoration: line-through;
 }
 .discount {
   color: var(--alternate-color);
