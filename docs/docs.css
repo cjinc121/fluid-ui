@@ -4,7 +4,7 @@
 @import "/stylesheets/reset.css";
 @import "/stylesheets/sidebar.css";
 @import "/components/avatar/avatar.css";
-
+@import "/components/alert/alert.css";
 header {
   grid-area: head;
 }
@@ -19,4 +19,8 @@ header {
   width: 85%;
   display: flex;
   flex-direction: column;
+}
+hr {
+  width: 50%;
+  margin: auto;
 }
