@@ -38,7 +38,7 @@
         <div class="sidebar-heading">Components</div>
         <div class="sidebar-item p-1"><a href="#avatar"> Avatar</a></div>
         <div class="sidebar-item p-1"><a href="#alert"> Alert</a></div>
-        <div class="sidebar-item p-1"><a href="#button"> Button</a></div>
+        <div class="sidebar-item p-1"><a href="#btn"> Button</a></div>
         <div class="sidebar-item p-1"><a href="#card"> Card</a></div>
         <div class="sidebar-item p-1"><a href="#avatar"> Image</a></div>
       </div>
@@ -141,6 +141,141 @@
               style="
                 min-width: 399px;
                 height: 303px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
+        <hr />
+        <!-- button -->
+        <section id="btn">
+          <div class="button-container">
+            <h3>Contained Buttons</h3>
+            <div class="button-container-item">
+              <button class="button contained-button primary-button">
+                Primary
+              </button>
+            </div>
+            <div class="button-container-item">
+              <button class="button contained-button secondary-button">
+                Secondary
+              </button>
+            </div>
+            <div class="button-container-item">
+              <button class="button contained-button error-button">
+                Error
+              </button>
+            </div>
+            <div class="button-container-item">
+              <button class="button contained-button sucess-button">
+                Sucess
+              </button>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522button-container-item%2522%253E%253Cbutton%2520class%253D%2522button%2520contained-button%2520primary-button%2522%253E%2520Primary%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container-item%2522%253E%253Cbutton%2520class%253D%2522button%2520contained-button%2520secondary-button%2522%253ESecondary%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container-item%2522%253E%253Cbutton%2520class%253D%2522button%2520contained-button%2520error-button%2522%253E%2520Error%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container-item%2522%253E%253Cbutton%2520class%253D%2522button%2520contained-button%2520sucess-button%2522%253E%250ASucess%253C%252Fbutton%253E%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 228px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="button-container">
+            <h3>Outlined Buttons</h3>
+            <div class="button-container-item">
+              <button class="button outline-button primary-button">
+                Primary
+              </button>
+            </div>
+            <div class="button-container-item">
+              <button class="button outline-button secondary-button">
+                Secondary
+              </button>
+            </div>
+            <div class="button-container-item">
+              <button class="button outline-button error-button">Error</button>
+            </div>
+            <div class="button-container-item">
+              <button class="button outline-button sucess-button">
+                Sucess
+              </button>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522button-container-item%2522%253E%253Cbutton%2520class%253D%2522button%2520outline-button%2520primary-button%2522%253E%2520Primary%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container-item%2522%253E%253Cbutton%2520class%253D%2522button%2520outline-button%2520secondary-button%2522%253ESecondary%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container-item%2522%253E%253Cbutton%2520class%253D%2522button%2520outline-button%2520error-button%2522%253E%2520Error%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container-item%2522%253E%253Cbutton%2520class%253D%2522button%2520outline-button%2520sucess-button%2522%253E%250ASucess%253C%252Fbutton%253E%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 228px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="button-container">
+            <h3>Floating Action Buttons</h3>
+            <div class="button-container-floating-item">
+              <button class="floating-button">
+                <i class="fas fa-plus fa-3x"></i>
+              </button>
+            </div>
+            <div class="button-container-item">
+              <button class="floating-button">
+                <i class="fas fa-minus fa-3x"></i>
+              </button>
+            </div>
+            <div class="button-container-item">
+              <button class="floating-button">
+                <i class="fas fa-home fa-3x"></i>
+              </button>
+            </div>
+            <div class="button-container-item">
+              <button class="floating-button">
+                <i class="fas fa-arrow-circle-right fa-3x"></i>
+              </button>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522button-container-floating-item%2522%253E%250A%253Cbutton%2520class%253D%2522floating-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container-item%2522%253E%253Cbutton%2520class%253D%2522floating-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-minus%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container-item%2522%253E%253Cbutton%2520class%253D%2522floating-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-home%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522button-container-item%2522%253E%253Cbutton%2520class%253D%2522floating-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-circle-right%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 228px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="button-container">
+            <h3>Link Button</h3>
+            <a href="#btn"
+              ><button class="button contained-button primary-button">
+                <i class="fas fa-link"></i>Link
+              </button></a
+            >
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523btn%2522%253E%253Cbutton%2520class%253D%2522button%2520contained-button%2520primary-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-link%2522%253E%253C%252Fi%253ELink%253C%252Fbutton%253E%253C%252Fa%253E"
+              style="
+                width: 399px;
+                height: 115px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;

@@ -1,0 +1,71 @@
+.button-container {
+  background-color: var(--light-color);
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.button {
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.contained-button.primary-button {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+.contained-button.secondary-button {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+.contained-button.error-button {
+  background-color: var(--error-color);
+  color: var(--light-color);
+}
+.contained-button.sucess-button {
+  background-color: var(--sucess-color);
+  color: var(--light-color);
+}
+.outline-button.primary-button {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  background-color: var(--white-color);
+}
+.outline-button.secondary-button {
+  color: var(---black-color);
+  border: 2px solid var(--black-color);
+  background-color: var(--white-color);
+}
+.outline-button.error-button {
+  color: var(--error-color);
+  border: 2px solid var(--error-color);
+  background-color: var(--white-color);
+}
+.outline-button.sucess-button {
+  color: var(--sucess-color);
+  border: 2px solid var(--sucess-color);
+  background-color: var(--white-color);
+}
+.button:hover {
+  padding: 0.6rem;
+  opacity: 0.5;
+}
+.button-container-floating-item {
+  padding: 0;
+}
+.floating-button {
+  border: none;
+  box-shadow: 1px 1px 4px #888888;
+  background-color: var(--light-color);
+  border-radius: 50%;
+}
+.floating-button i {
+  padding: 1rem;
+}
+.floating-button:active {
+  opacity: 0.5;
+}
