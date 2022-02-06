@@ -6,7 +6,8 @@
 @import "/components/avatar/avatar.css";
 @import "/components/alert/alert.css";
 @import "/components/button/button.css";
-
+@import "/components/card/card.css";
+@import "/components/badge/badge.css";
 header {
   grid-area: head;
 }
@@ -27,5 +28,7 @@ header {
 }
 hr {
   width: 50%;
+  border: none;
+  border-top: 1px solid var(--black-color);
   margin: auto;
 }
