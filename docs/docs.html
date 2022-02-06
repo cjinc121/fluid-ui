@@ -40,7 +40,9 @@
         <div class="sidebar-item p-1"><a href="#alert"> Alert</a></div>
         <div class="sidebar-item p-1"><a href="#btn"> Button</a></div>
         <div class="sidebar-item p-1"><a href="#card"> Card</a></div>
-        <div class="sidebar-item p-1"><a href="#avatar"> Image</a></div>
+        <div class="sidebar-item p-1"><a href="#badge"> Badge</a></div>
+        <div class="sidebar-item p-1"><a href="#image"> Image</a></div>
+        <div class="sidebar-item p-1"><a href="#input"> Input</a></div>
       </div>
       <div class="content">
         <!-- avatar -->
@@ -276,6 +278,205 @@
               style="
                 width: 399px;
                 height: 115px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
+        <hr />
+        <!-- card -->
+        <section id="card">
+          <div class="card-container">
+            <h3>Card (Image & Action Buttons)</h3>
+            <div class="card-container-item">
+              <div class="card-img">
+                <img src="https://picsum.photos/350/196" />
+              </div>
+              <div class="card-title">
+                <h2 class="main-title">My Card Title</h2>
+                <p class="description">by aman sharma</p>
+                <h4 class="sub-title">
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </h4>
+              </div>
+              <div class="card-action-btn">
+                <button class="button contained-button primary-button">
+                  Read
+                </button>
+                <button class="button outline-button primary-button p-1">
+                  Bookmark
+                </button>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container-item%2522%253E%250A%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F350%252F196%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%253Ch2%2520class%253D%2522main-title%2522%253EMy%2520Card%2520Title%253C%252Fh2%253E%250A%253Cp%2520class%253D%2522description%2522%253Eby%2520aman%2520sharma%253C%252Fp%253E%250A%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%253Ch3%2520class%253D%2522sub-title%2522%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%253C%252Fh3%253E%253Cdiv%2520class%253D%2522card-action-btn%2522%253E%250A%253Cbutton%253ERead%253C%252Fbutton%253E%253Cbutton%253EBookmark%253C%252Fbutton%253E%250A%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 253px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="card-container">
+            <h3>Card(Text Overlay)</h3>
+            <div class="card-container-item">
+              <div class="card-img top-img-title">
+                <img src="https://picsum.photos/350/196" />
+                <div class="card-title top-title">
+                  <h2 class="main-title">My Card Title</h2>
+                  <p class="desc">by aman sharma</p>
+                </div>
+              </div>
+
+              <h3 class="sub-title">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </h3>
+
+              <div class="card-action-btn">
+                <button>Read</button>
+                <button>Bookmark</button>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container-item%2522%253E%250A%253Cdiv%2520class%253D%2522card-img%2520top-img-title%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F350%252F196%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522card-title%2520top-title%2522%253E%250A%253Ch2%2520class%253D%2522main-title%2522%253EMy%2520Card%2520Title%253C%252Fh2%253E%250A%253Cp%2520class%253D%2522desc%2522%253Eby%2520aman%2520sharma%253C%252Fp%253E%250A%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%253Ch3%2520class%253D%2522sub-title%2522%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%253C%252Fh3%253E%253Cdiv%2520class%253D%2522card-action-btn%2522%253E%250A%253Cbutton%253ERead%253C%252Fbutton%253E%253Cbutton%253EBookmark%253C%252Fbutton%253E%250A%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 253px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="card-container">
+            <h3>E-commerce Card</h3>
+            <div class="card-container-portrait">
+              <div class="image-container">
+                <img src="https://picsum.photos/250/300" alt="card-image" />
+                <div class="tag-image-left">New</div>
+                <div class="tag-image-right">
+                  <button class="floating-button">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="card-title">
+                <h2 class="main-title">My Card Title</h2>
+                <p class="description">card description</p>
+              </div>
+              <p class="card-price">
+                $1234 <s>$9999</s><span class="discount">(87% off)</span>
+              </p>
+              <button class="button contained-button primary-button">
+                Buy Now
+              </button>
+              <button class="button outline-button secondary-button">
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container-portrait%2522%253E%253Cdiv%2520class%253D%2522image-container%2522%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F250%252F300%2522%2520alt%253D%2522card-image%2522%2520%252F%253E%253Cdiv%2520class%253D%2522tag-image-left%2522%253ENew%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522tag-image-right%2522%253E%253Cbutton%2520class%253D%2522floating-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-title%2522%253E%253Ch2%2520class%253D%2522main-title%2522%253EMy%2520Card%2520Title%253C%252Fh2%253E%253Cp%2520class%253D%2522description%2522%253Ecard%2520description%253C%252Fp%253E%250A%253C%252Fdiv%253E%253Cp%2520class%253D%2522card-price%2522%253E%25241234%2520%253Cspan%2520class%253D%2522strikeoff%2522%253E%25249999%253C%252Fspan%253E%253Cspan%2520class%253D%2522discount%2522%253E%2887%2525%2520off%29%253C%252Fspan%253E%253C%252Fp%253E%250A%253Cbutton%2520class%253D%2522button%2520contained-button%2520primary-button%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520outline-button%2520secondary-button%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 315px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
+        <!-- badge -->
+        <section id="badge">
+          <div class="badge-container">
+            <h3>Profile Badge</h3>
+            <div class="badge">
+              <img
+                class="avatar-circle sm"
+                src="/assets/images/avatar.jpg"
+                alt="avatar-circle"
+              />
+              <div class="online badge-tag-bottom"></div>
+            </div>
+            <div class="badge">
+              <img
+                class="avatar-circle sm"
+                src="/assets/images/avatar.jpg"
+                alt="avatar-circle"
+              />
+              <div class="offline badge-tag-bottom"></div>
+            </div>
+            <div class="badge">
+              <img
+                class="avatar-circle sm"
+                src="/assets/images/avatar.jpg"
+                alt="avatar-circle"
+              />
+              <div class="dnd badge-tag-bottom"></div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522badge%2522%253E%253Cimg%2520class%253D%2522avatar-circle%2520sm%2522src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522alt%253D%2522avatar-circle%2522%252F%253E%253Cdiv%2520class%253D%2522online%2520badge-tag-bottom%2522%253E%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%253Cimg%2520class%253D%2522avatar-circle%2520sm%2522src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522alt%253D%2522avatar-circle%2522%252F%253E%253Cdiv%2520class%253D%2522offline%2520badge-tag-bottom%2522%253E%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge%2522%253E%253Cimg%2520class%253D%2522avatar-circle%2520sm%2522src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522alt%253D%2522avatar-circle%2522%252F%253E%253Cdiv%2520class%253D%2522dnd%2520badge-tag-bottom%2522%253E%253C%252Fdiv%253E%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 228px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="badge-container">
+            <h3>Icon Badge</h3>
+
+            <div class="badge">
+              <i class="fas fa-home fa-2x"></i>
+              <div class="badge-no-right">9</div>
+            </div>
+            <div class="badge">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <div class="badge-no-right">9</div>
+            </div>
+            <div class="badge">
+              <i class="fas fa-bell fa-2x"></i>
+              <div class="badge-no-right">9</div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-home%2520fa-2x%2522%253E%253C%252Fi%253E%253Cdiv%2520class%253D%2522badge-no-right%2522%253E9%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-2x%2522%253E%253C%252Fi%253E%253Cdiv%2520class%253D%2522badge-no-right%2522%253E9%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-2x%2522%253E%253C%252Fi%253E%253Cdiv%2520class%253D%2522badge-no-right%2522%253E9%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 190px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;

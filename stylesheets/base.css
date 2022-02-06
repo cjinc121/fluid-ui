@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #1d4ed8;
+  --alternate-color: blueviolet;
   --white-color: white;
   --black-color: black;
   --light-color: #f9f9f0;
@@ -9,6 +10,7 @@
   --error-color: red;
   --warn-color: orange;
   --sucess-color: lightgreen;
+  --gray-color: gray;
 }
 body {
   font-family: "Ubuntu", sans-serif;
@@ -21,7 +23,9 @@ button {
 a {
   text-decoration: none;
 }
-
+i {
+  padding: 0;
+}
 ul,
 li {
   list-style-type: none;

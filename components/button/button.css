@@ -68,4 +68,5 @@
 }
 .floating-button:active {
   opacity: 0.5;
+  color: var(--alternate-color);
 }

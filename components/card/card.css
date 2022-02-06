@@ -1,0 +1,95 @@
+.card-container {
+  background-color: var(--light-color);
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+.card-container-item {
+  background-color: var(--white-color);
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25rem;
+  height: max-content;
+  margin: 1rem;
+}
+.main-title {
+  font-size: 1.5rem;
+}
+.sub-title {
+  font-size: 1rem;
+  color: var(--gray-color);
+}
+.card-action-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.45rem;
+  padding: 0.2rem;
+}
+.card-action-btn button {
+  border: none;
+  background-color: var(--white-color);
+  color: var(--alternate-color);
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.card-action-btn i {
+  cursor: pointer;
+}
+.card-action-btn i:active {
+  color: var(--primary-color);
+}
+.card-action-btn button:active {
+  background-color: var(--gray-color);
+  opacity: 0.9;
+  color: var(--primary-color);
+  border-radius: 1rem;
+}
+
+.top-img-title {
+  position: relative;
+}
+.top-title {
+  position: absolute;
+  left: 5px;
+  bottom: 1rem;
+}
+
+.card-container-portrait {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white-color);
+  padding: 1rem;
+  border-radius: 0.7rem;
+  gap: 10px;
+}
+.image-container {
+  position: relative;
+}
+.tag-image-left {
+  position: absolute;
+  top: 1rem;
+  left: 0.1rem;
+  background-color: var(--alternate-color);
+  padding: 0.2rem;
+  padding-right: 0.8rem;
+}
+.tag-image-right {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.1rem;
+}
+.card-price {
+  padding: 3px;
+  font-weight: 800;
+}
+.discount {
+  color: var(--alternate-color);
+}
