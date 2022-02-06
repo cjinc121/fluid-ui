@@ -1,6 +1,5 @@
 .avatar-container {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
   background-color: var(--light-color);
