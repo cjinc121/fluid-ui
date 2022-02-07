@@ -1,0 +1,56 @@
+.input-container {
+  background-color: var(--light-color);
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+.input-container-item label {
+  display: block;
+  margin: 0.7rem;
+}
+
+.input-container-item input {
+  width: 80%;
+  line-height: 2rem;
+  margin: 0.7rem;
+  outline: none;
+}
+.input-normal input:focus {
+  border: 1px solid var(--primary-color);
+}
+.input-error input {
+  border: 1px solid var(--error-color);
+}
+.input-sucess input {
+  border: 1px solid var(--sucess-color);
+}
+.input-warn input {
+  border: 1px solid var(--warn-color);
+}
+.warn-msg {
+  color: var(--warn-color);
+  margin-left: 0.7rem;
+}
+.sucess-msg {
+  color: var(--sucess-color);
+  margin-left: 0.7rem;
+}
+.error-msg {
+  color: var(--error-color);
+  margin-left: 0.7rem;
+}
+.input-container-radio {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.disabled {
+  color: var(--gray-color);
+  cursor: not-allowed;
+}
+.input-container-checkbox {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

@@ -9,6 +9,7 @@
 @import "/components/card/card.css";
 @import "/components/badge/badge.css";
 @import "/components/image/image.css";
+@import "/components/input/input.css";
 
 header {
   grid-area: head;
