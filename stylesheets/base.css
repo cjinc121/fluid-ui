@@ -12,6 +12,7 @@
   --warn-color: orange;
   --sucess-color: lightgreen;
   --gray-color: gray;
+  --shadow-color: #888888;
 }
 body {
   font-family: "Ubuntu", sans-serif;
