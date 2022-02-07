@@ -34,3 +34,8 @@ hr {
   border-top: 1px solid var(--black-color);
   margin: auto;
 }
+.code-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
