@@ -8,6 +8,8 @@
 @import "/components/button/button.css";
 @import "/components/card/card.css";
 @import "/components/badge/badge.css";
+@import "/components/image/image.css";
+
 header {
   grid-area: head;
 }

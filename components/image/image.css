@@ -1,0 +1,19 @@
+.image-container {
+  background-color: var(--light-color);
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+
+.image-res {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.image-res.circle {
+  width: 15rem;
+  height: auto;
+  object-fit: contain;
+  border-radius: 50%;
+}
