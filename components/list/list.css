@@ -1,0 +1,32 @@
+.list-container {
+  background-color: var(--light-color);
+  padding: 2rem;
+  margin: 2rem 0;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.list-container-item {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  background-color: var(--white-color);
+  padding: 1rem;
+}
+.list-item {
+  padding: 1rem;
+  cursor: pointer;
+}
+.list-item:hover {
+  border: 2px solid var(--gray-color);
+  background-color: var(--primary-color);
+}
+.list-notification {
+  width: 25rem;
+}
+.list-item-notification {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
