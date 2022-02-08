@@ -10,6 +10,8 @@
 @import "/components/badge/badge.css";
 @import "/components/image/image.css";
 @import "/components/input/input.css";
+@import "/components/list/list.css";
+@import "/components/toast/toast.css";
 
 header {
   grid-area: head;
@@ -39,4 +41,5 @@ hr {
   display: flex;
   gap: 2rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
