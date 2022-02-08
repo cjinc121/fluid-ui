@@ -12,6 +12,8 @@
 @import "/components/input/input.css";
 @import "/components/list/list.css";
 @import "/components/toast/toast.css";
+@import "/components/grid/grid.css";
+@import "/components/rating/rating.css";
 
 header {
   grid-area: head;

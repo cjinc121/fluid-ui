@@ -1,0 +1,28 @@
+.grid-container {
+  background-color: var(--light-color);
+  padding: 2rem;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.grid-container-item {
+  display: grid;
+  gap: 1rem;
+  background-color: var(--white-color);
+  padding: 1rem;
+  width: fit-content;
+}
+
+.two-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+.three-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-pills {
+  background-color: var(--alternate-color);
+  padding: 0.5rem;
+  width: fit-content;
+}
