@@ -653,12 +653,138 @@
               />
             </div>
           </div>
-          <div class="code-conatiner">
+          <div class="code-container">
             <iframe
               src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image-container-item%2522%253E%253Cimg%250Aclass%253D%2522image-res%2520circle%2522%250Asrc%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522%250Aalt%253D%2522responsive-image%2522%250A%252F%253E%253C%252Fdiv%253E"
               style="
                 width: 399px;
                 height: 140px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
+        <hr />
+        <!-- input -->
+        <section id="input">
+          <div class="input-container">
+            <h3>Input & validation Input</h3>
+            <div class="input-container-item input-normal">
+              <label> Username *</label>
+              <input type="text" />
+            </div>
+            <div class="input-container-item input-error">
+              <label> Password *</label>
+              <input type="password" />
+              <div class="error-msg">Password not correct!</div>
+            </div>
+            <div class="input-container-item input-sucess">
+              <label> Username *</label>
+              <input type="text" />
+              <div class="sucess-msg">Username aprroved!</div>
+            </div>
+            <div class="input-container-item input-warn">
+              <label>Password *</label>
+              <input type="password" />
+              <div class="warn-msg">Password strength weak!</div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container-item%2520input-normal%2522%253E%253Clabel%253E%2520Username%2520*%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container-item%2520input-error%2522%253E%250A%253Clabel%253E%2520Password%2520*%253C%252Flabel%253E%253Cinput%2520type%253D%2522password%2522%2520%252F%253E%253Cdiv%2520class%253D%2522error-msg%2522%253EPassword%2520not%2520correct%21%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container-item%2520input-sucess%2522%253E%253Clabel%253E%2520Username%2520*%253C%252Flabel%253E%253Cinput%2520type%253D%2522text%2522%2520%252F%253E%253Cdiv%2520class%253D%2522sucess-msg%2522%253EUsername%2520aprroved%21%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container-item%2520input-warn%2522%253E%250A%253Clabel%253EPassword%2520*%253C%252Flabel%253E%253Cinput%2520type%253D%2522password%2522%2520%252F%253E%253Cdiv%2520class%253D%2522warn-msg%2522%253EPassword%2520strength%2520weak%21%253C%252Fdiv%253E%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 265px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="input-container">
+            <div class="input-container-item-flex">
+              <h3>Radio Input</h3>
+              <div class="radio">
+                <label for="radio-1">
+                  <input id="radio-1" name="radio" type="radio" checked="" />
+                  Checked
+                </label>
+              </div>
+              <div class="radio">
+                <label for="radio-2">
+                  <input id="radio-2" name="radio" type="radio" />
+                  Unchecked
+                </label>
+              </div>
+              <div class="radio disabled">
+                <label for="radio-3">
+                  <input id="radio-3" name="radio" type="radio" disabled="" />
+                  Disabled
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522radio%2522%253E%253Clabel%2520for%253D%2522radio-1%2522%253E%250A%253Cinput%2520id%253D%2522radio-1%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520checked%253D%2522%2522%2520%252F%253EChecked%253C%252Flabel%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522radio%2522%253E%253Clabel%2520for%253D%2522radio-2%2522%253E%253Cinput%2520id%253D%2522radio-2%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520%252F%253EUnchecked%253C%252Flabel%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522radio%2520disabled%2522%253E%253Clabel%2520for%253D%2522radio-3%2522%253E%253Cinput%2520id%253D%2522radio-3%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520disabled%253D%2522%2522%2520%252F%253EDisabled%253C%252Flabel%253E%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 203px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="input-container">
+            <div class="input-container-item-flex">
+              <h3>Checkbox Input</h3>
+              <div class="checkbox">
+                <label for="checkbox-1">
+                  <input
+                    id="checkbox-1"
+                    name="checkbox"
+                    type="checkbox"
+                    checked=""
+                  />
+                  Checked
+                </label>
+              </div>
+
+              <div class="checkbox">
+                <label for="checkbox-2">
+                  <input id="checkbox-2" name="checkbox" type="checkbox" />
+                  Unchecked
+                </label>
+              </div>
+
+              <div class="checkbox disabled">
+                <label for="checkbox-3">
+                  <input
+                    id="checkbox-3"
+                    name="checkbox"
+                    type="checkbox"
+                    disabled=""
+                  />
+                  Disabled
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522checkbox%2522%253E%253Clabel%2520for%253D%2522checkbox-1%2522%253E%250A%253Cinput%2520id%253D%2522checkbox1%2522name%253D%2522checkbox%2522type%253D%2522checkbox%2522checked%253D%2522%2522%252F%253EChecked%253C%252Flabel%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522checkbox%2522%253E%253Clabel%2520for%253D%2522checkbox-2%2522%253E%250A%253Cinput%2520id%253D%2522checkbox-2%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%2520%252F%253EUnchecked%253C%252Flabel%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522checkbox%2520disabled%2522%253E%253Clabel%2520for%253D%2522checkbox-3%2522%253E%253Cinput%2520id%253D%2522checkbox-3%2522%250Aname%253D%2522checkbox%2522type%253D%2522checkbox%2522disabled%253D%2522%2522%252F%253E%250ADisabled%253C%252Flabel%253E%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 215px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
