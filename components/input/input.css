@@ -39,7 +39,7 @@
   color: var(--error-color);
   margin-left: 0.7rem;
 }
-.input-container-radio {
+.input-container-item-flex {
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -47,9 +47,4 @@
 .disabled {
   color: var(--gray-color);
   cursor: not-allowed;
-}
-.input-container-checkbox {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
 }
