@@ -1,0 +1,33 @@
+.navigation-container {
+  background-color: var(--light-color);
+  padding: 2rem;
+  margin: 2rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+.navigation-container-item {
+  width: 90%;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--alternate-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.right-nav {
+  margin-left: 0;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+}
+i {
+  padding-right: 1rem;
+}
+a {
+  color: var(--black-color);
+}

@@ -1,0 +1,19 @@
+.text-utility-container {
+  background-color: var(--light-color);
+  padding: 2rem;
+  margin: 2rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+.text-small {
+  font-size: small;
+}
+.text-gray {
+  color: var(--gray-color);
+}
+.text-center {
+  text-align: center;
+  margin: auto;
+}
