@@ -17,8 +17,8 @@ var f = document.querySelector(".modal-button");
 var b = document.querySelector(".simple-modal");
 var c = document.querySelectorAll(".action-btn");
 
-f.addEventListener("click", () => clickHandler());
-function clickHandler() {
+f.addEventListener("click", () => clickHandler1());
+function clickHandler1() {
   b.style.display = "flex";
   f.disabled = "true";
   f.style.opacity = "0.4";
