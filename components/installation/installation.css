@@ -1,0 +1,9 @@
+.start-container {
+  background-color: var(--light-color);
+  padding: 2rem;
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
