@@ -14,7 +14,8 @@
 @import "/components/toast/toast.css";
 @import "/components/grid/grid.css";
 @import "/components/rating/rating.css";
-
+@import "/components/navigation/navigation.css";
+@import "/components/textutilities/textutilities.css";
 header {
   grid-area: head;
 }
