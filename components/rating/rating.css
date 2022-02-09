@@ -1,0 +1,24 @@
+.rating-container {
+  background-color: var(--light-color);
+  padding: 2rem;
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+.rating-container-item {
+  background-color: var(--white-color);
+  width: max-content;
+  padding: 1rem;
+}
+.star-icon {
+  cursor: pointer;
+}
+.star-icon:hover {
+  color: var(--gold-color);
+}
+.rating-tag {
+  background-color: var(--gold-color);
+  padding: 0.5rem;
+}

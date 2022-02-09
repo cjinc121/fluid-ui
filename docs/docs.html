@@ -35,15 +35,24 @@
     <div class="screen">
       <div class="sidebar p-2 m-1">
         <div class="sidebar-heading">Components</div>
-        <div class="sidebar-item p-1"><a href="#avatar"> Avatar</a></div>
-        <div class="sidebar-item p-1"><a href="#alert"> Alert</a></div>
-        <div class="sidebar-item p-1"><a href="#btn"> Button</a></div>
-        <div class="sidebar-item p-1"><a href="#card"> Card</a></div>
-        <div class="sidebar-item p-1"><a href="#badge"> Badge</a></div>
-        <div class="sidebar-item p-1"><a href="#image"> Image</a></div>
-        <div class="sidebar-item p-1"><a href="#input"> Input</a></div>
-        <div class="sidebar-item p-1"><a href="#list"> List</a></div>
-        <div class="sidebar-item p-1"><a href="#toast"> Toast</a></div>
+        <div class="sidebar-item"><a href="#avatar"> Avatar</a></div>
+        <div class="sidebar-item"><a href="#alert"> Alert</a></div>
+        <div class="sidebar-item"><a href="#btn"> Button</a></div>
+        <div class="sidebar-item"><a href="#card"> Card</a></div>
+        <div class="sidebar-item"><a href="#badge"> Badge</a></div>
+        <div class="sidebar-item"><a href="#image"> Image</a></div>
+        <div class="sidebar-item"><a href="#input"> Input</a></div>
+        <div class="sidebar-item"><a href="#list"> List</a></div>
+        <div class="sidebar-item"><a href="#toast"> Toast</a></div>
+        <div class="sidebar-item"><a href="#rating"> Ratings</a></div>
+        <div class="sidebar-item"><a href="#Grid"> Grid</a></div>
+        <div class="sidebar-item">
+          <a href="#textutilities">Text Utilities</a>
+        </div>
+        <div class="sidebar-item">
+          <a href="#navigation">Navigation</a>
+        </div>
+        <div class="sidebar-item"><a href="#modal">Modal</a></div>
       </div>
       <div class="content">
         <!-- avatar -->
@@ -796,6 +805,7 @@
           </div>
         </section>
         <hr />
+        <!-- list -->
         <section id="list">
           <div class="list-container">
             <h3>Simple List & List with Links</h3>
@@ -931,6 +941,7 @@
           </div>
           <hr />
         </section>
+        <!-- toast -->
         <section id="toast">
           <div class="toast-container">
             <h3>Toast</h3>
@@ -944,6 +955,101 @@
               style="
                 width: 399px;
                 height: 115px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
+        <hr />
+        <!-- rating -->
+        <section id="rating">
+          <div class="rating-container">
+            <h3>Ratings</h3>
+            <div class="rating-container-item">
+              <i class="far fa-star star-icon"></i>
+              <i class="far fa-star star-icon"></i>
+              <i class="far fa-star star-icon"></i>
+              <i class="far fa-star star-icon"></i>
+            </div>
+            <div class="rating-container-item rating-tag">
+              4.3<i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container-item%2522%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2520star-icon%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2520star-icon%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2520star-icon%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2520star-icon%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 153px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container-item%2520rating-tag%2522%253E%250A4.3%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 115px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
+        <!-- grid -->
+        <section id="grid">
+          <div class="grid-container">
+            <h3>grid-2</h3>
+            <div class="grid-container-item two-grid">
+              <div class="grid-pills">Item 1</div>
+              <div class="grid-pills">Item 2</div>
+              <div class="grid-pills">Item 3</div>
+              <div class="grid-pills">Item 4</div>
+              <div class="grid-pills">Item 5</div>
+              <div class="grid-pills">Item 6</div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container-item%2520two-grid%2522%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25201%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25202%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25203%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25204%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25205%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25206%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 178px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="grid-container">
+            <h3>grid-3</h3>
+            <div class="grid-container-item three-grid">
+              <div class="grid-pills">Item 1</div>
+              <div class="grid-pills">Item 2</div>
+              <div class="grid-pills">Item 3</div>
+              <div class="grid-pills">Item 4</div>
+              <div class="grid-pills">Item 5</div>
+              <div class="grid-pills">Item 6</div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container-item%2520three-grid%2522%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25201%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25202%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25203%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25204%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25205%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522grid-pills%2522%253EItem%25206%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 399px;
+                height: 178px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
