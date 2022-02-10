@@ -31,7 +31,7 @@
 .badge-no-right {
   position: absolute;
   top: -0.5rem;
-  right: -0.4rem;
+  right: 0.4rem;
   background-color: var(--alternate-color);
   height: 1.2rem;
   width: 1.2rem;
