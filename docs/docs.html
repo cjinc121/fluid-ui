@@ -34,6 +34,8 @@
     <!-- sidebar -->
     <div class="screen">
       <div class="sidebar p-2 m-1">
+        <div class="sidebar-heading">Getting Started</div>
+        <div class="sidebar-item"><a href="#start"> Introduction</a></div>
         <div class="sidebar-heading">Components</div>
         <div class="sidebar-item"><a href="#avatar"> Avatar</a></div>
         <div class="sidebar-item"><a href="#alert"> Alert</a></div>
@@ -55,6 +57,43 @@
         <div class="sidebar-item"><a href="#modal">Modal</a></div>
       </div>
       <div class="content">
+        <!-- getting started -->
+        <section id="start">
+          <div class="start-container">
+            <h3>Installation</h3>
+            <h4>
+              Inside your project directory, install Fluid UI by running either
+              of the following :
+            </h4>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=399&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%252F*%2520Add%2520link%2520to%2520Html%2520file%2520*%252F%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Ffluid-ui-component.vercel.app%252Fdocs%252Fdocs.css%2522%253E"
+              style="
+                width: 399px;
+                height: 115px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=css&width=379&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%250A%252F*%2520%2520%2520Import%2520to%2520CSS%2520file%2520*%252F%250A%2540import%2520url%28%27https%253A%252F%252Ffluid-ui-component.vercel.app%252Fdocs%252Fdocs.css%27%29%253B"
+              style="
+                width: 379px;
+                height: 112px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
+        <hr />
         <!-- avatar -->
         <section id="avatar">
           <div class="avatar-container">
@@ -1165,6 +1204,47 @@
           </div>
         </section>
         <hr />
+        <section id="modal">
+          <div class="modal-container">
+            <h3>Simple Modal</h3>
+            <button class="button contained-button primary-button modal-button">
+              Click For Demo
+            </button>
+            <div class="simple-modal">
+              <div class="dia-head"><h3>heading</h3></div>
+              <div class="dia-text">
+                <p>
+                  this is a modal description , click any action button to
+                  dismiss
+                </p>
+              </div>
+              <div class="dia-btn">
+                <button
+                  class="action-btn button contained-button sucess-button"
+                >
+                  Action 1
+                </button>
+                <button class="action-btn button contained-button error-button">
+                  Action 2
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=bw&l=htmlmixed&width=379&ds=true&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Cascadia+Code&fs=13px&lh=96%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522simple-modal%2522%253E%250A%253Cdiv%2520class%253D%2522dia-head%2522%253E%253Ch3%253Eheading%253C%252Fh3%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522dia-text%2522%253E%250A%253Cp%253Ethis%2520is%2520a%2520modal%2520description%2520%252C%2520click%2520any%2520action%2520button%2520to%2520dismiss%253C%252Fp%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522dia-btn%2522%253E%253Cbutton%2520class%253D%2522action-btn%2520button%2520contained-button%2520sucess-button%2522%253EAction%25201%253C%252Fbutton%253E%253Cbutton%2520class%253D%2522action-btn%2520button%2520contained-button%2520error-button%2522%253EAction%25202%250A%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 379px;
+                height: 198px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
       </div>
     </div>
 
