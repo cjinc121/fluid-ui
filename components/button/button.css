@@ -51,7 +51,6 @@
   background-color: var(--white-color);
 }
 .button:hover {
-  padding: 0.6rem;
   opacity: 0.5;
 }
 .button-container-floating-item {

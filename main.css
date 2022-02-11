@@ -26,7 +26,7 @@
   color: black;
   font-family: "Ubuntu", sans-serif;
   border: 2px black solid;
-
+  padding: 0.5rem;
   border-radius: 0.5rem;
   background-color: rgb(238, 229, 229);
 }
@@ -37,4 +37,8 @@
 }
 .secondary {
   box-shadow: 1px 2px 22px 0px rgba(89, 87, 87, 0.85);
+}
+.desc {
+  font-size: 2rem;
+  letter-spacing: 2px;
 }
