@@ -63,3 +63,5 @@ fontawesome link for icons:
 - Gray Text
 # [Navigation](https://fluid-ui-component.vercel.app/docs/docs.html#navigation)
 # [Simple Modal](https://fluid-ui-component.vercel.app/docs/docs.html#modal)
+# Demo
+- https://fluid-ui-component.vercel.app/docs/docs.html
