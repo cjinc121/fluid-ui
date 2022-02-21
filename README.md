@@ -9,17 +9,19 @@ HTML,CSS,Vanilla js
 # Installation
 
 fontawesome link for icons:
+```
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/fontawesome.css" integrity="sha512-NQCKOSsUyZsvf5ItxWh1bR2vlY0cgw1Rx9tJRLJr31GT9oxCno9uwtiVmVFgN2BlHo1jmwjtH8ivIaob4YF+jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+```
  Add link to Html file:
-<link rel="stylesheet" href="https://fluid-ui-component.vercel.app/docs/docs.css">
- 
+ ```
+<link rel="stylesheet" href="https://fluid-ui-component.vercel.app/docs/docs.css">]
+ ```
  or
  
  Import to CSS file :
-
+```
 @import url('https://fluid-ui-component.vercel.app/docs/docs.css');
-
+```
 # Component List
  # [Avatar](https://fluid-ui-component.vercel.app/docs/docs.html#avatar)
 - Square Avatar
